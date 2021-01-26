@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+:root{
+    --color-success: #399544;
+    --color-info: #60BAD8;
+    --color-warning: #E95547;
+    --color-error: #C9343C;
+}
+
+.message {
+    max-width: 100%;
+    min-width: 320px;
+    background-color: darkgray;
+
+    border-radius: 4px;
+    padding: 20px 40px;
+    margin: 10px 0;
+}
+
+.message.success {
+    background-color: var(--color-success);
+    color: #f1f1f1;
+}
+
+.message.info {
+    background-color: var(--color-info);
+    color: #f1f1f1;
+}
+
+.message.warning {
+    background-color: var(--color-warning);
+    color: #f1f1f1;
+}
+
+.message.error {
+    background-color: var(--color-error);
+    color: #f1f1f1;
+}

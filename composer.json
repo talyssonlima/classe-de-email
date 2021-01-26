@@ -1,0 +1,20 @@
+{
+  "name": "talyssonlima/email",
+  "description": "Classe de envio de e-mail usando o PHPMailer",
+  "minimum-stability": "stable",
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php",
+      "source/Helpers.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "~6.0"
+  }
+}
